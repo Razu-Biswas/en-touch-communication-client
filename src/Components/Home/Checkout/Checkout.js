@@ -26,7 +26,7 @@ const Checkout = () => {
 
     const { email } = user;
     useEffect(() => {
-        fetch(`http://localhost:5000/checkout/${id}`)
+        fetch(`https://warm-temple-20429.herokuapp.com/checkout/${id}`)
             .then((response) => response.json())
             .then((data) => setService(data[0]));
     }, [id]);
@@ -46,7 +46,7 @@ const Checkout = () => {
         console.log(user);
         console.log(orderInfo);
         // console.log(orderInfo);
-        axios.post('http://localhost:5000/saveorder', orderInfo).then((res) => {
+        axios.post('https://warm-temple-20429.herokuapp.com/saveorder', orderInfo).then((res) => {
             // console.log(res);
             toast.success('Payment Successfully');
             history.push("/")

@@ -9,13 +9,13 @@ function AddAdmin() {
   const [allUsers, setAllUsers] = useState([]);
   useEffect(() => {
     const getAllOrders = async () => {
-      const fetchOrders = await axios.get(`http://localhost:5000/allusers`);
+      const fetchOrders = await axios.get(`https://warm-temple-20429.herokuapp.com/allusers`);
       setAllUsers(fetchOrders.data);
     }
     getAllOrders();
   }, [])
   const makeAdmin = async (user) => {
-    const updateUser = await axios.get(`http://localhost:5000/makeAdmin/${user}`);
+    const updateUser = await axios.get(`https://warm-temple-20429.herokuapp.com/makeAdmin/${user}`);
     console.log(updateUser)
   }
   return (

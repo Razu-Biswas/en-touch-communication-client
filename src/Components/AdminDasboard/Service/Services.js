@@ -7,7 +7,7 @@ function Services() {
   const [allServices, setAllServices] = useState([]);
   useEffect(() => {
     const getAllOrders = async () => {
-      const fetchOrders = await axios.get(`http://localhost:5000/services`);
+      const fetchOrders = await axios.get(`https://warm-temple-20429.herokuapp.com/services`);
       setAllServices(fetchOrders.data);
       console.log(fetchOrders);
     }
@@ -15,7 +15,7 @@ function Services() {
   }, [])
   const deleteService = async (id) => {
     try {
-      const deletedService = await axios.get(`http://localhost:5000/deleteService/${id}`);
+      const deletedService = await axios.get(`https://warm-temple-20429.herokuapp.com/deleteService/${id}`);
       const updatedService = allServices.filter((service) => service._id !== id);
       toast.success(deletedService.data.message);
       setAllServices(updatedService)

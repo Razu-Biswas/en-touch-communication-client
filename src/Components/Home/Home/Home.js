@@ -21,14 +21,12 @@ const Home = () => {
             <Header></Header>
             {/* <AddService></AddService> */}
             <ServiceDetails/>
-            {/* <Services></Services> */}
             <ExtraFeature></ExtraFeature>
             <SpecialFeature></SpecialFeature>
             <PremiumFeature></PremiumFeature>
            
             <Reviews></Reviews>
-            {/* <Clients></Clients> */}
-            <Footer></Footer>
+            <Clients></Clients>
             
         </div>
     );

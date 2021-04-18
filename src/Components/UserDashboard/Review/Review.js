@@ -6,7 +6,7 @@ function Review() {
   const [reviewInfo, setReviewInfo] = useState({});
   const history = useHistory()
   const submitReview = async () => {
-    const saveReview = await axios.post(`http://localhost:5000/addSingleReview`, reviewInfo)
+    const saveReview = await axios.post(`https://warm-temple-20429.herokuapp.com/addSingleReview`, reviewInfo)
     console.log(saveReview)
     if (saveReview.data.userName) {
       history.push('/');

@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    color: #b55c80;
+    font: 300 18px/18px Roboto;
+    background: -webkit-linear-gradient(90deg, #DAD299 10%, #B0DAB9 90%);
+    background: -moz-linear-gradient(90deg, #DAD299 10%, #B0DAB9 90%);
+    background: -ms-linear-gradient(90deg, #DAD299 10%, #B0DAB9 90%);
+    background: -o-linear-gradient(90deg, #DAD299 10%, #B0DAB9 90%);
+    background: linear-gradient(90deg, #DAD299 10%, #B0DAB9 90%)
+  }
+    
+.mainCard{
+  border:1px solid gray;
+    /* border-radius: 20px;
+    padding: 3px;
+    text-align: center; */
+}
+  

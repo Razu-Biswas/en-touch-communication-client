@@ -26,13 +26,13 @@ const Checkout = () => {
 
     const { email } = user;
     useEffect(() => {
-        fetch(`https://entouch-server.onrender.com/${id}`)
+        fetch(`https://entouch-server.onrender.com/checkout/${id}`)
             .then((response) => response.json())
             .then((data) => setService(data[0]));
     }, [id]);
 
     const history = useHistory();
-
+console.log(service)
     const checkoutBtn = () => {
         const orderInfo = {
             serviceName: name,

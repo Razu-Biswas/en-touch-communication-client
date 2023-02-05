@@ -11,7 +11,7 @@ function Orders() {
   const { email } = user;
   useEffect(() => {
     const getAllOrders = async () => {
-      const fetchOrders = await axios.get(`https://warm-temple-20429.herokuapp.com/orderByEmail/${email}`);
+      const fetchOrders = await axios.get(`https://entouch-server.onrender.com/orderByEmail/${email}`);
       setAllOrders(fetchOrders.data);
       console.log(fetchOrders);
     }

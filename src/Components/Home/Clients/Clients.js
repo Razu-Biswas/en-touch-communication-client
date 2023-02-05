@@ -27,7 +27,7 @@ const Clients = () => {
                                         <textarea class="form-control" name="message" placeholder="Message" rows="7" data-form-field="Message"></textarea>
                                     </div>
                                     <div>
-                                        <button type="submit" class="btn btn-lg btn-success">CONTACT US</button>
+                                        <button type="submit" class="btn btn-lg btn-success mb-4">CONTACT US</button>
                                     </div>
                                 </form>
                             </div>

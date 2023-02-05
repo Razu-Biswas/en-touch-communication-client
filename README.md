@@ -1,6 +1,6 @@
 ## Name: Razu Biswas
 ### Email: sreekantaraju3421@gmail.com
-### Admin panel Add: programminghero001@gmail.com
+### Admin panel Add: hungrycoder421codermama@gmail.com
 
 
 ###project live site link **

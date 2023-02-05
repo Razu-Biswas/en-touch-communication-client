@@ -7,7 +7,7 @@ const ServiceDetails = () => {
     const [services, setServices] = useState([]);
 
     useEffect(() => {
-        fetch('https://warm-temple-20429.herokuapp.com/services')
+        fetch('https://entouch-server.onrender.com/services')
             .then((res) => res.json())
             .then((data) => setServices(data));
 

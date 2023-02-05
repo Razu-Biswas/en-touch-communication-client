@@ -27,7 +27,7 @@ const AddServices = () => {
                 const image = (service.image = response.data.data.display_url);
                 setServices({ ...service, image });
 
-                const url = "https://warm-temple-20429.herokuapp.com/addServices";
+                const url = "https://entouch-server.onrender.com/addServices";
                 fetch(url, {
                     method: 'POST',
                     headers: {

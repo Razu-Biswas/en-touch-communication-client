@@ -26,7 +26,7 @@ const CreateReview = () => {
 
     const handleReviewSubmit = event => {
         event.preventDefault();
-        fetch('https://warm-temple-20429.herokuapp.com/addSingleReview', {
+        fetch('https://entouch-server.onrender.com/addSingleReview', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(newReview),

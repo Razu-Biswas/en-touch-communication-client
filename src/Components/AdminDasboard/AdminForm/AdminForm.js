@@ -6,7 +6,7 @@ import { toast } from 'react-toastify';
 function AdminForm() {
   const [adminEmail, setAdminEmail] = useState('');
   const submitAdmin = async () => {
-    const adminAdd = await axios.get(`https://warm-temple-20429.herokuapp.com/addAdmin/${adminEmail}`);
+    const adminAdd = await axios.get(`https://entouch-server.onrender.com/addAdmin/${adminEmail}`);
     console.log(adminAdd)
     if (adminAdd.data.adminEmail) {
       toast.success('Admin added Successfully');

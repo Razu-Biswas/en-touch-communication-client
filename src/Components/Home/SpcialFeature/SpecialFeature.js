@@ -7,7 +7,7 @@ const SpecialFeature = () => {
         <div className="container mb-5">
             <div className="row mb-5">
                 <div className="col-md-5 mb-4 m-md-0">
-                    <img className="img-fluid" src={featured} alt=""/>
+                    <img className="img-fluid rounded" src={featured} alt=""/>
                 </div>
                 <div className="col-md-7 align-self-center">
                     <h1>Exceptional BroadBand SPECIAL SERVICE, On Our Team</h1>

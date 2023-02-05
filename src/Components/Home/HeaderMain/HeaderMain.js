@@ -12,7 +12,7 @@ const HeaderMain = () => {
                 <Link to="/appointment" className="btn btn-success">GET SERVICE</Link>
             </div>
             <div className="col-md-6 col-sm-6 col-12">
-                <img src={chair} alt="" className="img-fluid"/>
+                <img src={chair} alt="" className="img-fluid rounded"/>
             </div>
         </main>
     );

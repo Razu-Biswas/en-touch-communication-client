@@ -12,14 +12,14 @@ const settings = {
 };
 
 const Reviews = () => {
-    const [reviews, SetReviews] = useState([]);
+    const [reviews, setReviews] = useState([]);
 
     useEffect(() => {
-        fetch("https://warm-temple-20429.herokuapp.com/getReviews")
+        fetch("https://entouch-server.onrender.com/getReviews")
             .then(res => res.json())
             .then(getReviews => {
-                console.log(getReviews)
-                SetReviews(getReviews.slice(0, 6));
+                // console.log(getReviews)
+                setReviews(getReviews.slice(0, 6));
             });
     }, []);
     return (

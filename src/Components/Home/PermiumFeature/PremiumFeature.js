@@ -13,7 +13,7 @@ const PremiumFeature = () => {
       <div className="cards-list">
 
         <div className="card-r 1">
-          <div className="card_image"> <img src={picture} /> </div>
+          <div className="card_image"> <img alt='' src={picture} /> </div>
           <div className="card_title title-white">
           <p><small>Simple Use</small></p>
             <p>Easy Surfing</p>
@@ -22,7 +22,7 @@ const PremiumFeature = () => {
 
         <div className="card-r 2">
           <div className="card_image">
-            <img src={picture2} />
+            <img alt='' src={picture2} />
           </div>
           <div className="card_title title-white">
           <p><small>High Speed</small></p>
@@ -32,7 +32,7 @@ const PremiumFeature = () => {
 
         <div className="card-r 3">
           <div className="card_image">
-            <img src={picture3} />
+            <img alt='' src={picture3} />
           </div>
           <div className="card_title title-white">
             <p><small>Family Package</small></p>
@@ -42,7 +42,7 @@ const PremiumFeature = () => {
 
         <div className="card-r 4">
           <div className="card_image">
-            <img src={picture4} />
+            <img alt="" src={picture4} />
           </div>
           <div className="card_title title-white">
           <p><small>Awesome Service</small></p>

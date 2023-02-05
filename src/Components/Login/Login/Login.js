@@ -35,7 +35,7 @@ const Login = () => {
 					role: 'user'
 				};
 
-				axios.post('https://warm-temple-20429.herokuapp.com/addUser', signedInUser).then((res) => {
+				axios.post('https://entouch-server.onrender.com/addUser', signedInUser).then((res) => {
                     localStorage.setItem('user', JSON.stringify(res.data));
                     console.log(res.data);
                     setUser(res.data);
